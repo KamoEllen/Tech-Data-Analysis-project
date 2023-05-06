@@ -120,3 +120,6 @@ plt.show()
     
 ![png](output_55_1.png)
     
+
+Other:
+I regret not having a consistent currency throughout the project, which would have enhanced reliability.
