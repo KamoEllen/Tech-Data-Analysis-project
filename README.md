@@ -1,3 +1,20 @@
+Introduction:
+
+I am currently working on a project that involves analyzing the prices of mobile phones and laptops. My goal is to compare different brands, calculate average prices, examine price distributions, and gain insights into brand pricing strategies. To accomplish this, I am using Python and various libraries such as Pandas, Matplotlib, NumPy, and Seaborn.
+<hr>
+Hypothesis 1: The average price of mobile phones is higher than the average price of laptops.
+
+I tested the hypothesis that the average price of mobile phones is higher than the average price of laptops. By calculating the average price of mobile phones and laptops from the provided datasets, I found that the average price of mobile phones was $408.31, while the average price of laptops was $1123.69. Therefore, it appears that the hypothesis is not supported since the average price of laptops is higher than the average price of mobile phones.
+
+Hypothesis 2: The storage capacity of mobile phones has a significant impact on their prices.
+
+ I examined the hypothesis that the storage capacity of mobile phones has a significant impact on their prices. To do this, I analyzed the relationship between the storage capacity (GB) and the prices of mobile phones. Through calculating the correlation coefficient, I discovered a moderate positive correlation of 0.443 between the two variables. Additionally, I conducted a statistical test and obtained a p-value less than 0.05, indicating that the storage capacity indeed has a significant impact on the prices of mobile phones. Therefore, it can be concluded that the hypothesis is supported.
+
+Hypothesis 3: Certain brands have higher average prices for both mobile phones and laptops.
+
+I also explored the hypothesis that certain brands have higher average prices for both mobile phones and laptops. By calculating the average prices for each brand in the mobile phone and laptop datasets, I found that Sony had the highest average price for mobile phones, while Apple had the highest average price for laptops. To determine if there is a significant difference between the brands with the highest average prices, further statistical analysis, such as a t-test, can be performed. Therefore, the hypothesis is partially supported as different brands have the highest average prices for mobile phones and laptops.
+
+<hr>
 
 ```python
 mean_price = data['Price ($)'].mean()
